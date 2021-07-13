@@ -199,9 +199,10 @@ transform-origin: bottom;}
         
       }
       .social-icon {
-          width: 6rem;
+          width: 8rem;
       }
       .intro-social{margin: 0px auto ;}
       ul{margin-right: 3rem;}
-    
+      .intro-text{@include flex(center,center,column)}
+      h3{text-align: center;}
 }
