@@ -1,0 +1,198 @@
+.main-head{
+    width: 95% ;
+    margin: 0 0 0 auto;
+}
+
+// body{overflow: hidden;}
+
+nav{
+    @include flex(space-between, center, row);
+    min-height: 10vh;
+    width: 60%;
+    flex-wrap: wrap;
+    .logo{
+        @include flex(flex-start,center,row);
+         flex: 1 1 10rem;
+         h1{
+             margin: 2rem;
+         }
+        }
+    ul{
+        @include flex(space-around,center,row);
+        flex: 1 1 40rem;
+        
+        }
+    
+
+}
+
+.intro{
+    min-height: 90vh;
+    width: 90%;
+    margin: auto;
+    flex-wrap: wrap;
+    @include flex(space-between, center, row);
+    h2{
+        font-size: 8rem;
+        padding-top: 2rem ;
+        background: $gradient;
+        -webkit-text-fill-color: transparent ;
+        -webkit-background-clip: text;
+        display: inline-block;
+    }
+    h3{
+        font-size: 6rem;
+        padding-top: 2rem 0rem; 
+    }
+    p{
+        padding-top: 2rem;
+        color: $gray-text;
+    }
+}
+
+.splash{position: absolute;
+top: 0%;
+right: 0%;
+height: 100%;
+z-index: -1;}
+
+.intro-social {
+    margin-top: 4rem;
+    a{
+        margin: 5rem;
+    }
+}
+
+.active{
+    background: $gray-text;
+    color: white;
+    padding: 1rem 3rem;
+    border-radius: 2rem;
+
+}
+
+.intro-text, .intro-images{
+    flex: 1 1 40rem;
+}
+
+
+svg{width: 80%;
+height: 100%;}
+
+#plant-left{
+    animation: plants 1.5s ease infinite alternate;
+}
+
+#plant-right{animation: plants 2s ease infinite alternate;}
+
+#me{animation: me 2s ease infinite alternate;
+transform-origin: bottom;}
+
+#clock-arrow{animation: clock 2s infinite linear;
+            transform-box: fill-box;
+            transform-origin: bottom;
+}
+
+@keyframes plants{
+
+    from{
+        transform: translateY(0%);
+    }
+    to{
+        transform: translateY(-30%);
+    }
+
+}
+
+@keyframes me{
+
+    from{
+        transform: rotateZ(-4deg);
+    }
+    to{
+        transform: rotateZ(4deg);
+    }
+
+}
+
+@keyframes clock{
+
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+
+}
+
+#Vector_5 {
+    fill: lightcoral;
+}
+
+
+@media screen and (max-width: 1332px)
+{
+    html{font-size: 50%;}
+    .splash{
+        display: none;
+    }
+    svg{width: 80%;}
+    
+    nav{width: 100%};
+}
+
+@media screen and (max-width: 801px) {
+    html {
+        font-size: 43%;
+    }
+
+    svg {
+        height: 100%;
+        width: 100%;
+    }
+
+    #Vector_5 {
+        fill: skyblue;
+    }
+    .social-icon{width: 5rem;}
+}
+@media screen and(max-width:703px) {
+    svg {
+        width: 80%;
+        margin-top: 5rem;
+    }
+
+    .intro-images {
+        width: 70%;
+        margin-left: 7rem;
+    }
+
+    html {
+        font-size: 41%;
+    }
+    body{overflow: auto;}
+}
+
+@media screen and(max-width:411px)
+{
+    nav{
+        
+        .logo{
+
+            @include flex(center,center,column);
+            flex: 1 1 20rem;
+            margin-top: 2rem;
+            flex-wrap: wrap;
+           }
+    }
+    html{font-size: 38%};
+    .intro-social{@include flex(center,center,row)}
+    svg{margin: 0;}
+      #Vector_5 {
+          fill: lightgreen;
+      }
+      .social-icon {
+          width: 6rem;
+      }
+}
