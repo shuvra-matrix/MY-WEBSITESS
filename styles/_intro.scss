@@ -189,7 +189,7 @@ transform-origin: bottom;}
             flex-wrap: wrap;
            }
     }
-    html{font-size: 38%};
+    html{font-size: 35%};
     .intro-social {
         @include flex(center, center, row);
     }
@@ -204,5 +204,6 @@ transform-origin: bottom;}
       .intro-social{margin: 0px auto ;}
       ul{margin-right: 3rem;}
       .intro-text{@include flex(center,center,column)}
-      h3{text-align: center;}
+      h3{text-align: center;font-size: 4rem;}
+      p{text-align: center;}
 }
