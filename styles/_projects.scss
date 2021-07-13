@@ -10,14 +10,14 @@
     padding-bottom: 2rem;
 }
 
-.travelly,.elina{
+.travelly,.elina,.elina{
     flex: 1 1 60rem;
     @include flex(center,center,column);
 }
 
-.rtcamp{width: 60rem;border-radius: 2rem;}
+.rtcamp{border-radius: 2rem;width: 50%;}
 .flask_url {
-    width: 60rem;
+    width: 50rem;
     border-radius: 2rem;
 }
 
