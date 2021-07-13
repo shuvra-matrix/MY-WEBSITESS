@@ -181,14 +181,14 @@ transform-origin: bottom;}
         .logo{
 
             @include flex(center,center,column);
-            flex: 1 1 20rem;
+            flex: 1 1 60rem;
             margin-top: 2rem;
             flex-wrap: wrap;
            }
     }
     html{font-size: 38%};
     .intro-social{@include flex(center,center,row)}
-    svg{margin: 0;}
+    svg{margin-bottom: 5rem;}
       #Vector_5 {
           fill: lightgreen;
       }
