@@ -375,6 +375,11 @@ svg {
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
   }
   svg {
     margin: 0rem 0rem 0rem 0rem;

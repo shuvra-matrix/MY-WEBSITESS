@@ -190,7 +190,14 @@ transform-origin: bottom;}
            }
     }
     html{font-size: 38%};
-    .intro-social{@include flex(center,center,row)}
+    .intro-social {
+        @include flex(center, center, row);
+        display: inline-block;
+        width: 100%;
+        text-align: center;
+        padding-top: 2rem;
+        padding-bottom: 1rem;
+    }
     svg{margin: 0rem 0rem 0rem 0rem ;width: 100%;padding-right: 5rem;}
       #Vector_5 {
           fill: lightgreen;
