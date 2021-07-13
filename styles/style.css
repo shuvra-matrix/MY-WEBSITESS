@@ -346,6 +346,9 @@ svg {
 }
 
 @media screen and (max-width: 419px) {
+  nav {
+    padding-bottom: 4rem;
+  }
   nav .logo {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -366,6 +369,7 @@ svg {
     margin-top: 2rem;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
+    margin-right: 2rem;
   }
   html {
     font-size: 35%;
@@ -401,6 +405,7 @@ svg {
   }
   ul {
     margin-right: 3rem;
+    padding-top: 2rem;
   }
   .intro-text {
     display: -webkit-box;
@@ -455,8 +460,8 @@ svg {
 
 .travelly, .elina {
   -webkit-box-flex: 1;
-      -ms-flex: 1 1 40rem;
-          flex: 1 1 40rem;
+      -ms-flex: 1 1 60rem;
+          flex: 1 1 60rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -472,28 +477,135 @@ svg {
           flex-direction: column;
 }
 
-@media screen and (max-width: 419px) {
-  nav .logo {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-flex: 1;
-        -ms-flex: 1 1 30rem;
-            flex: 1 1 30rem;
-    margin-top: 2rem;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    margin-right: 6rem;
-  }
+.froms {
+  margin-top: 3rem;
+  min-height: 90vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding-right: 2rem;
+  padding-bottom: 2rem;
+}
+
+.froms .text-div {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 50rem;
+          flex: 1 1 50rem;
+  padding: 4rem;
+  text-align: center;
+}
+
+.froms .from-div {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 10rem;
+          flex: 1 1 10rem;
+}
+
+.froms form {
+  padding: 3rem 3rem;
+  -webkit-box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.2), 0px 20px 40px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.2), 0px 20px 40px rgba(0, 0, 0, 0.2);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  border-radius: 2rem;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  text-align: center;
+}
+
+.froms input, .froms textarea {
+  margin: 2rem;
+}
+
+.froms input:focus, .froms textarea:focus {
+  outline: 2px solid gray;
+}
+
+.froms textarea {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+}
+
+.froms button {
+  width: 80%;
+  padding: 1rem;
+  background: #154353;
+  color: white;
+}
+
+.froms button:focus {
+  background: -webkit-gradient(linear, left top, right top, from(#38d39f), to(#38a4d3));
+  background: linear-gradient(left, #38d39f, #38a4d3);
+}
+
+footer {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  background: #154353;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 20rem;
+          flex: 1 1 20rem;
+  padding: 1rem;
+}
+
+footer, h4 {
+  padding-left: 2rem;
+  color: white;
+}
+
+footer,
+ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 10rem;
+          flex: 1 1 10rem;
 }
 /*# sourceMappingURL=style.css.map */

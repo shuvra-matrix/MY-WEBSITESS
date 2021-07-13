@@ -11,21 +11,7 @@
 }
 
 .travelly,.elina{
-    flex: 1 1 40rem;
+    flex: 1 1 60rem;
     @include flex(center,center,column);
 }
 
-@media screen and(max-width:419px) {
-    nav {
-
-        .logo {
-
-            @include flex(center, center, column);
-            flex: 1 1 30rem;
-            margin-top: 2rem;
-            flex-wrap: wrap;
-            margin-right: 6rem;
-        }
-    }
-
-}

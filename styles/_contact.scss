@@ -1,0 +1,53 @@
+.froms{
+    margin-top: 3rem;
+    min-height: 90vh;
+    @include flex(center, center, row);
+    .text-div{flex: 1 1 50rem;
+    padding: 4rem;
+    text-align: center;}
+    .from-div{flex: 1 1 10rem;}
+    flex-wrap: wrap;
+    padding-right: 2rem;
+
+    form{
+        padding: 3rem 3rem;
+        box-shadow:0px 10px 10px rgba($color: #000000, $alpha: 0.2), 0px 20px 40px rgba($color: #000000, $alpha: 0.2);
+        @include flex(center, center, column);
+        border-radius: 2rem;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    input,textarea{
+        margin: 2rem;
+        &:focus{
+            outline: 2px solid gray;
+        }
+    }
+    textarea {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 2rem;
+    }
+    button{width: 80%;
+    padding: 1rem;
+background: $background-color;
+color: white;
+&:focus{background: $gradient;}
+}
+padding-bottom: 2rem;
+}
+
+footer{width: 100%;
+@include flex(space-between,center,column);
+flex-wrap: wrap;
+background: $background-color;
+flex: 1 1 20rem;
+padding: 1rem;
+}
+
+footer,h4{padding-left: 2rem;color: white}
+
+footer,
+ul {
+    @include flex(space-around, center, row);
+    flex:  1 1 10rem;
+}

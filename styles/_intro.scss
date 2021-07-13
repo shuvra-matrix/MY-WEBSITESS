@@ -189,7 +189,9 @@ transform-origin: bottom;}
             flex: 1 1 30rem;
             margin-top: 2rem;
             flex-wrap: wrap;
+            margin-right: 2rem ;
            }
+           padding-bottom: 4rem;
     }
     html{font-size: 35%};
     .intro-social {
@@ -204,8 +206,9 @@ transform-origin: bottom;}
           width: 8rem;
       }
       .intro-social{margin: 0px auto ;}
-      ul{margin-right: 3rem;}
+      ul{margin-right: 3rem;padding-top: 2rem;}
       .intro-text{@include flex(center,center,column)}
       h3{text-align: center;font-size: 4rem;}
       p{text-align: center;}
+      
 }
