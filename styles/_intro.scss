@@ -194,6 +194,7 @@ transform-origin: bottom;}
             flex-wrap: wrap;
             margin-right: 2rem ;
            }
+           .my_logo{width: 10rem;}
            padding-bottom: 4rem;
     }
     html{font-size: 35%};
@@ -213,5 +214,6 @@ transform-origin: bottom;}
       .intro-text{@include flex(center,center,column)}
       h3{text-align: center;font-size: 4rem;}
       p{text-align: center;}
+    
       
 }

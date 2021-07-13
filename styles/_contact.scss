@@ -2,12 +2,13 @@
     margin-top: 3rem;
     min-height: 90vh;
     @include flex(center, center, row);
-    .text-div{flex: 1 1 50rem;
+    .text-div{
+    flex: 1 1 50rem;
     padding: 4rem;
     text-align: center;}
     .from-div{flex: 1 1 10rem;}
     flex-wrap: wrap;
-    padding-right: 2rem;
+    margin: 2rem;
 
     form{
         padding: 3rem 3rem;
@@ -51,3 +52,4 @@ ul {
     @include flex(space-around, center, row);
     flex:  1 1 10rem;
 }
+h3{font-size: 3rem;}
