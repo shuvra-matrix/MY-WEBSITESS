@@ -53,6 +53,12 @@ a {
   margin: 0 0 0 auto;
 }
 
+.my_logo {
+  width: 7rem;
+  border-radius: 12rem;
+  margin-top: 2rem;
+}
+
 body {
   overflow: hidden;
 }
