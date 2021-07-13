@@ -145,7 +145,7 @@ transform-origin: bottom;}
 
 @media screen and (max-width: 801px) {
 
-
+    nav{.logo{margin-left: 2rem;}}
     html {
         font-size: 43%;
     }
@@ -154,7 +154,6 @@ transform-origin: bottom;}
         height: 100%;
         width: 100%;
     }
-
     #Vector_5 {
         fill: skyblue;
     }
@@ -163,7 +162,7 @@ transform-origin: bottom;}
 @media screen and(max-width:703px) {
     svg {
         width: 80%;
-        margin-top: 5rem;
+        margin-top: rem;
     }
 
     .intro-images {
@@ -192,7 +191,7 @@ transform-origin: bottom;}
     }
     html{font-size: 38%};
     .intro-social{@include flex(center,center,row)}
-    svg{margin: 0px 0px 0px 0px ;}
+    svg{margin: 0rem 0rem 0rem 0rem ;width: 100%;padding-right: 5rem;}
       #Vector_5 {
           fill: lightgreen;
         
@@ -201,7 +200,5 @@ transform-origin: bottom;}
           width: 6rem;
       }
       .intro-social{margin: 0px auto ;}
-      .intro-text,.intro-images {
-          flex: 1 1 40rem;
-      }
+    
 }

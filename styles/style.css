@@ -301,6 +301,9 @@ svg {
 }
 
 @media screen and (max-width: 801px) {
+  nav .logo {
+    margin-left: 2rem;
+  }
   html {
     font-size: 43%;
   }
@@ -319,7 +322,7 @@ svg {
 @media screen and (max-width: 703px) {
   svg {
     width: 80%;
-    margin-top: 5rem;
+    margin-top: rem;
   }
   .intro-images {
     width: 70%;
@@ -374,7 +377,9 @@ svg {
             flex-direction: row;
   }
   svg {
-    margin: 0px 0px 0px 0px;
+    margin: 0rem 0rem 0rem 0rem;
+    width: 100%;
+    padding-right: 5rem;
   }
   #Vector_5 {
     fill: lightgreen;
@@ -384,11 +389,6 @@ svg {
   }
   .intro-social {
     margin: 0px auto;
-  }
-  .intro-text, .intro-images {
-    -webkit-box-flex: 1;
-        -ms-flex: 1 1 40rem;
-            flex: 1 1 40rem;
   }
 }
 /*# sourceMappingURL=style.css.map */
