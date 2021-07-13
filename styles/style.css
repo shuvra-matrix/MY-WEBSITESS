@@ -59,10 +59,6 @@ a {
   margin-top: 2rem;
 }
 
-body {
-  overflow: hidden;
-}
-
 nav {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -484,6 +480,22 @@ svg {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+}
+
+.rtcamp {
+  width: 60rem;
+  border-radius: 2rem;
+}
+
+.flask_url {
+  width: 60rem;
+  border-radius: 2rem;
+}
+
+h5 {
+  width: 50%;
+  font-size: 1.5rem;
+  padding-bottom: 2rem;
 }
 
 .froms {

@@ -6,7 +6,6 @@
 border-radius: 12rem;
 margin-top: 2rem;}
 
-body{overflow: hidden;}
 
 nav{
     @include flex(space-between, center, row);
