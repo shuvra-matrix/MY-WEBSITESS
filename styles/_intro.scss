@@ -3,7 +3,7 @@
     margin: 0 0 0 auto;
 }
 
-// body{overflow: hidden;}
+body{overflow: hidden;}
 
 nav{
     @include flex(space-between, center, row);
@@ -139,10 +139,13 @@ transform-origin: bottom;}
     }
     svg{width: 80%;}
     
-    nav{width: 100%};
+    nav{width: 100%;
+    margin-top: 2rem};
 }
 
 @media screen and (max-width: 801px) {
+
+
     html {
         font-size: 43%;
     }
@@ -172,27 +175,30 @@ transform-origin: bottom;}
         font-size: 41%;
     }
     body{overflow: auto;}
+    
 }
 
-@media screen and(max-width:411px)
+@media screen and(max-width:419px)
 {
     nav{
         
         .logo{
 
             @include flex(center,center,column);
-            flex: 1 1 60rem;
+            flex: 1 1 30rem;
             margin-top: 2rem;
             flex-wrap: wrap;
            }
     }
     html{font-size: 38%};
     .intro-social{@include flex(center,center,row)}
-    svg{margin-bottom: 5rem;}
+    svg{margin: 0px 0px 0px 0px ;}
       #Vector_5 {
           fill: lightgreen;
+        
       }
       .social-icon {
           width: 6rem;
       }
+      .intro-social{margin: 0px auto ;}
 }
