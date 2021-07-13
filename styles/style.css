@@ -385,5 +385,10 @@ svg {
   .intro-social {
     margin: 0px auto;
   }
+  .intro-text, .intro-images {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1 40rem;
+            flex: 1 1 40rem;
+  }
 }
 /*# sourceMappingURL=style.css.map */

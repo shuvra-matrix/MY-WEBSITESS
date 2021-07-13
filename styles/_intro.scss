@@ -201,4 +201,7 @@ transform-origin: bottom;}
           width: 6rem;
       }
       .intro-social{margin: 0px auto ;}
+      .intro-text,.intro-images {
+          flex: 1 1 40rem;
+      }
 }
