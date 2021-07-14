@@ -342,9 +342,6 @@ svg {
   html {
     font-size: 41%;
   }
-  body {
-    overflow: auto;
-  }
   .travelly img,
   .elina img {
     width: 70%;
@@ -352,7 +349,7 @@ svg {
   }
 }
 
-@media screen and (max-width: 419px) {
+@media screen and (max-width: 517px) {
   nav {
     padding-bottom: 4rem;
   }
@@ -371,8 +368,8 @@ svg {
         -ms-flex-direction: column;
             flex-direction: column;
     -webkit-box-flex: 1;
-        -ms-flex: 1 1 30rem;
-            flex: 1 1 30rem;
+        -ms-flex: 1 1 60rem;
+            flex: 1 1 60rem;
     margin-top: 2rem;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
@@ -642,5 +639,66 @@ ul {
 
 h3 {
   font-size: 3rem;
+}
+
+.about {
+  height: 100%;
+  width: 90%;
+  margin: auto;
+  margin-top: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.about .about-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+}
+
+.about #text_h3 {
+  color: #0aa9be;
+  text-shadow: 1px 1px 1px #2685bd;
+  margin: 2rem;
+  font-family: 'Otomanopee One', sans-serif;
+}
+
+.about #text_p {
+  margin-bottom: 2rem;
+  font-size: 2rem;
+  font-family: 'Otomanopee One', sans-serif;
+  color: #0d8383;
+}
+
+footer {
+  margin-top: 40%;
+  width: 100%;
+}
+
+#my_images {
+  width: 15rem;
+  border-radius: 1rem;
 }
 /*# sourceMappingURL=style.css.map */

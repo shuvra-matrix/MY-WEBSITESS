@@ -1,0 +1,30 @@
+.about{
+    height: 100%;
+    width: 90%;
+    margin: auto;
+    margin-top: 2rem;
+    @include flex(center,center,column);
+    .about-text{
+
+         @include flex(center, center, column);
+         text-align: center;
+    }
+    #text_h3 {
+        color: rgb(10, 169, 190);
+        text-shadow: 1px 1px 1px rgb(38, 133, 189);
+        margin: 2rem;
+        font-family: 'Otomanopee One', sans-serif;
+    }
+    #text_p {
+        margin-bottom: 2rem;
+        font-size: 2rem;
+        font-family: 'Otomanopee One',
+        sans-serif;
+        color: rgb(13, 131, 131);
+    }
+
+}
+
+footer{margin-top: 40%;width: 100%;}
+#my_images{width: 15rem;
+    border-radius: 1rem;}

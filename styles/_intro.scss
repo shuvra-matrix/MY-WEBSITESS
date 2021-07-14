@@ -177,7 +177,6 @@ transform-origin: bottom;}
     html {
         font-size: 41%;
     }
-    body{overflow: auto;}
      .travelly,
      .elina {
          img {
@@ -188,14 +187,14 @@ transform-origin: bottom;}
     
 }
 
-@media screen and(max-width:419px)
+@media screen and(max-width:517px)
 {
     nav{
         
         .logo{
 
             @include flex(center,center,column);
-            flex: 1 1 30rem;
+            flex: 1 1 60rem;
             margin-top: 2rem;
             flex-wrap: wrap;
             margin-right: 2rem ;
@@ -226,5 +225,5 @@ transform-origin: bottom;}
               width: 70%;
               height: 100%;
           }}
-      
-}
+    //   .head_image{padding-bottom: 2rem;}  
+        }
