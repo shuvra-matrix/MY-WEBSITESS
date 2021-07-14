@@ -5,7 +5,10 @@
 .my_logo{width: 7rem;
 border-radius: 12rem;
 margin-top: 2rem;}
-
+.shuvra {
+    font-family: 'Dancing Script',
+    cursive;
+}
 
 nav{
     @include flex(space-between, center, row);
@@ -24,29 +27,31 @@ nav{
         flex: 1 1 40rem;
         
         }
-    
 
 }
 
+.webdev{color: rgb(221, 144, 55);}
+
 .intro{
-    min-height: 90vh;
+    min-height: 81vh;
     width: 90%;
     margin: auto;
-    flex-wrap: wrap;
     @include flex(space-between, center, row);
+    flex-wrap: wrap;
     h2{
-        font-size: 8rem;
-        padding-top: 2rem ;
+        font-size: 7rem;
+        padding-top: 3rem ;
         background: $gradient;
         -webkit-text-fill-color: transparent ;
         -webkit-background-clip: text;
         display: inline-block;
     }
     h3{
-        font-size: 6rem;
-        padding-top: 2rem 0rem; 
+        font-size: 4rem;
+        padding-top: 3rem 0rem; 
     }
     p{
+        font-size: 1.5rem;
         padding-top: 2rem;
         color: $gray-text;
     }
@@ -68,7 +73,7 @@ z-index: -1;}
 .active{
     background: $gray-text;
     color: white;
-    padding: 1rem 3rem;
+    padding: 1rem 1rem;
     border-radius: 2rem;
 
 }
@@ -133,7 +138,7 @@ transform-origin: bottom;}
 }
 
 
-@media screen and (max-width: 1332px)
+@media screen and (max-width: 900px)
 {
     html{font-size: 50%;}
     .splash{
@@ -225,5 +230,5 @@ transform-origin: bottom;}
               width: 70%;
               height: 100%;
           }}
-    //   .head_image{padding-bottom: 2rem;}  
-        }
+        .text-div,h3{font-size: 3rem;}
+}

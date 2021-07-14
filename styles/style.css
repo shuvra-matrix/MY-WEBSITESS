@@ -6,7 +6,7 @@
 }
 
 html {
-  font-size: 62.5%;
+  font-size: 55%;
 }
 
 body {
@@ -14,7 +14,7 @@ body {
 }
 
 h1 {
-  font-size: 2.5rem;
+  font-size: 2rem;
 }
 
 li,
@@ -23,20 +23,20 @@ label,
 input,
 a,
 p {
-  font-size: 2.5rem;
+  font-size: 2rem;
 }
 
 h2 {
-  font-size: 4rem;
+  font-size: 3rem;
 }
 
 h3 {
-  font-size: 2.5rem;
+  font-size: 2rem;
 }
 
 h4,
 h5 {
-  font-size: 2rem;
+  font-size: 1.3rem;
 }
 
 ul {
@@ -57,6 +57,10 @@ a {
   width: 7rem;
   border-radius: 12rem;
   margin-top: 2rem;
+}
+
+.shuvra {
+  font-family: 'Dancing Script', cursive;
 }
 
 nav {
@@ -120,12 +124,14 @@ nav ul {
           flex: 1 1 40rem;
 }
 
+.webdev {
+  color: #dd9037;
+}
+
 .intro {
-  min-height: 90vh;
+  min-height: 81vh;
   width: 90%;
   margin: auto;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -139,11 +145,13 @@ nav ul {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .intro h2 {
-  font-size: 8rem;
-  padding-top: 2rem;
+  font-size: 7rem;
+  padding-top: 3rem;
   background: -webkit-gradient(linear, left top, right top, from(#38d39f), to(#38a4d3));
   background: linear-gradient(left, #38d39f, #38a4d3);
   -webkit-text-fill-color: transparent;
@@ -152,11 +160,12 @@ nav ul {
 }
 
 .intro h3 {
-  font-size: 6rem;
-  padding-top: 2rem 0rem;
+  font-size: 4rem;
+  padding-top: 3rem 0rem;
 }
 
 .intro p {
+  font-size: 1.5rem;
   padding-top: 2rem;
   color: #2c2c2c;
 }
@@ -180,7 +189,7 @@ nav ul {
 .active {
   background: #2c2c2c;
   color: white;
-  padding: 1rem 3rem;
+  padding: 1rem 1rem;
   border-radius: 2rem;
 }
 
@@ -290,7 +299,7 @@ svg {
   fill: lightcoral;
 }
 
-@media screen and (max-width: 1332px) {
+@media screen and (max-width: 900px) {
   html {
     font-size: 50%;
   }
@@ -441,6 +450,9 @@ svg {
     width: 70%;
     height: 100%;
   }
+  .text-div, h3 {
+    font-size: 3rem;
+  }
 }
 
 .projects {
@@ -470,7 +482,7 @@ svg {
   margin: 5rem;
 }
 
-.travelly, .elina, .elina {
+.travelly, .elina {
   -webkit-box-flex: 1;
       -ms-flex: 1 1 60rem;
           flex: 1 1 60rem;
@@ -507,7 +519,7 @@ h5 {
 
 .froms {
   margin-top: 3rem;
-  min-height: 90vh;
+  min-height: 80vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -542,7 +554,7 @@ h5 {
 }
 
 .froms form {
-  padding: 3rem 3rem;
+  padding: 1.5rem 1.5rem;
   -webkit-box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.2), 0px 20px 40px rgba(0, 0, 0, 0.2);
           box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.2), 0px 20px 40px rgba(0, 0, 0, 0.2);
   display: -webkit-box;
@@ -558,7 +570,7 @@ h5 {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  border-radius: 2rem;
+  border-radius: 1rem;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   text-align: center;
@@ -589,60 +601,13 @@ h5 {
   background: linear-gradient(left, #38d39f, #38a4d3);
 }
 
-footer {
-  width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  background: #154353;
-  -webkit-box-flex: 1;
-      -ms-flex: 1 1 20rem;
-          flex: 1 1 20rem;
-  padding: 1rem;
-}
-
-footer, h4 {
-  padding-left: 2rem;
-  color: white;
-}
-
-footer,
-ul {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-flex: 1;
-      -ms-flex: 1 1 10rem;
-          flex: 1 1 10rem;
-}
-
-h3 {
-  font-size: 3rem;
+.froms .text-div {
+  width: 90%;
+  margin: auto;
 }
 
 .about {
-  height: 100%;
+  min-height: 90vh;
   width: 90%;
   margin: auto;
   margin-top: 2rem;
@@ -692,13 +657,52 @@ h3 {
   color: #0d8383;
 }
 
-footer {
-  margin-top: 40%;
-  width: 100%;
-}
-
 #my_images {
   width: 15rem;
   border-radius: 1rem;
+}
+
+footer {
+  background: #154353;
+  color: white;
+  min-height: 10vh;
+  padding: 0% 5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+footer ul {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 40rem;
+          flex: 1 1 40rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+footer h4 {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 40rem;
+          flex: 1 1 40rem;
 }
 /*# sourceMappingURL=style.css.map */
