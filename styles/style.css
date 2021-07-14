@@ -150,7 +150,7 @@ nav ul {
 }
 
 .intro h2 {
-  font-size: 7rem;
+  font-size: 8rem;
   padding-top: 3rem;
   background: -webkit-gradient(linear, left top, right top, from(#38d39f), to(#38a4d3));
   background: linear-gradient(left, #38d39f, #38a4d3);
@@ -160,12 +160,12 @@ nav ul {
 }
 
 .intro h3 {
-  font-size: 4rem;
+  font-size: 5rem;
   padding-top: 3rem 0rem;
 }
 
 .intro p {
-  font-size: 1.5rem;
+  font-size: 2rem;
   padding-top: 2rem;
   color: #2c2c2c;
 }
@@ -468,24 +468,24 @@ svg {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-orient: horizontal;
+  -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   text-align: center;
-  padding-bottom: 2rem;
+  padding-bottom: 1rem;
 }
 
 .projects h2 {
-  margin: 5rem;
+  margin: 2rem;
 }
 
 .travelly, .elina {
   -webkit-box-flex: 1;
-      -ms-flex: 1 1 60rem;
-          flex: 1 1 60rem;
+      -ms-flex: 1 1 40rem;
+          flex: 1 1 40rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -590,7 +590,7 @@ h5 {
 }
 
 .froms button {
-  width: 80%;
+  width: 70%;
   padding: 1rem;
   background: #154353;
   color: white;

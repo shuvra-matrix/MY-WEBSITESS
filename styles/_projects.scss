@@ -3,15 +3,15 @@
     width: 90%;
     margin: auto;
     min-height: 90vh;
-    @include flex(space-between,center,row);
+    @include flex(space-between,center,column);
     flex-wrap: wrap;
     text-align: center;
-    h2{margin: 5rem;}
-    padding-bottom: 2rem;
+    h2{margin: 2rem;}
+    padding-bottom: 1rem;
 }
 
 .travelly,.elina{
-    flex: 1 1 60rem;
+    flex: 1 1 40rem;
     @include flex(center,center,column);
 }
 

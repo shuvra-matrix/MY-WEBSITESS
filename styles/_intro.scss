@@ -39,7 +39,7 @@ nav{
     @include flex(space-between, center, row);
     flex-wrap: wrap;
     h2{
-        font-size: 7rem;
+        font-size: 8rem;
         padding-top: 3rem ;
         background: $gradient;
         -webkit-text-fill-color: transparent ;
@@ -47,11 +47,11 @@ nav{
         display: inline-block;
     }
     h3{
-        font-size: 4rem;
+        font-size: 5rem;
         padding-top: 3rem 0rem; 
     }
     p{
-        font-size: 1.5rem;
+        font-size: 2rem;
         padding-top: 2rem;
         color: $gray-text;
     }
