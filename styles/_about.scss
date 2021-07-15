@@ -13,7 +13,6 @@
     .about-text{
         padding-left: 2rem;
          @include flex(center, center, column);
-         text-align: center;
          flex: 1 1 40rem;
        
     }

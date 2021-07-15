@@ -165,8 +165,7 @@ transform-origin: bottom;}
         fill: skyblue;
     }
     .social-icon{width: 5rem;}
-    .travelly,
-    .elina{img{width:100% ;height: 100%;}}
+
 }
 @media screen and(max-width:703px) {
     svg {
@@ -182,13 +181,6 @@ transform-origin: bottom;}
     html {
         font-size: 41%;
     }
-     .travelly,
-     .elina {
-         img {
-             width: 70%;
-             height: 100%;
-         }
-     }
     
 }
 
@@ -223,13 +215,6 @@ transform-origin: bottom;}
       ul{margin-right: 3rem;padding-top: 2rem;}
       .intro-text{@include flex(center,center,column)}
       h3{text-align: center;font-size: 4rem;}
-      p{text-align: center;}
-      .travelly,
-      .elina {
-          img {
-              width: 70%;
-              height: 100%;
-          }}
         .text-div,h3{font-size: 3rem;}
         .about-text{margin-top: -35rem;}
         #my_images{margin-top: -15rem;}
