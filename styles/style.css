@@ -453,6 +453,12 @@ svg {
   .text-div, h3 {
     font-size: 3rem;
   }
+  .about-text {
+    margin-top: -35rem;
+  }
+  #my_images {
+    margin-top: -15rem;
+  }
 }
 
 .projects {
@@ -620,13 +626,24 @@ h5 {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-orient: vertical;
+  -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.about #my_images {
+  width: 35rem;
+  border-radius: 1rem;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 10rem;
+          flex: 1 1 10rem;
 }
 
 .about .about-text {
+  padding-left: 2rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -641,25 +658,49 @@ h5 {
       -ms-flex-direction: column;
           flex-direction: column;
   text-align: center;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 40rem;
+          flex: 1 1 40rem;
 }
 
 .about #text_h3 {
   color: #13a9d6;
   text-shadow: 1px 1px 1px #043953;
-  margin: 2rem;
+  margin-bottom: 2rem;
   font-family: 'Otomanopee One', sans-serif;
 }
 
 .about #text_p {
-  margin-bottom: 2rem;
-  font-size: 2rem;
-  font-family: 'Otomanopee One', sans-serif;
-  color: #0d8383;
+  font-size: 5px;
+  margin-bottom: 5rem;
+  font-size: 1.8rem;
+  font-family: 'Otomanopee One',sans-serif;
+  color: black;
 }
 
-#my_images {
-  width: 15rem;
-  border-radius: 1rem;
+.about .cv {
+  border: 2px solid rebeccapurple;
+  border-radius: 5px;
+  padding: 2rem;
+  margin-top: 40rem;
+  position: absolute;
+  background: -webkit-gradient(linear, left top, right top, from(#38d39f), to(#38a4d3));
+  background: linear-gradient(left, #38d39f, #38a4d3);
+  color: white;
+  font-size: 2.2rem;
+}
+
+.about_title {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.about-h1 {
+  font-size: 3rem;
+}
+
+.about-p {
+  color: crimson;
 }
 
 footer {

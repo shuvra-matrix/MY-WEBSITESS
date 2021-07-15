@@ -3,28 +3,46 @@
     width: 90%;
     margin: auto;
     margin-top: 2rem;
-    @include flex(center,center,column);
+    @include flex(center,center,row);
+    flex-wrap: wrap;
+    #my_images {
+        width: 35rem;
+        border-radius: 1rem;
+        flex: 1 1 10rem;
+    }
     .about-text{
-
+        padding-left: 2rem;
          @include flex(center, center, column);
          text-align: center;
+         flex: 1 1 40rem;
+       
     }
     #text_h3 {
         color: rgb(19, 169, 214);
         text-shadow: 1px 1px 1px rgb(4, 57, 83);
-        margin: 2rem;
+        margin-bottom: 2rem;
         font-family: 'Otomanopee One', sans-serif;
     }
     #text_p {
-        margin-bottom: 2rem;
-        font-size: 2rem;
-        font-family: 'Otomanopee One',
-        sans-serif;
-        color: rgb(13, 131, 131);
+        font-size: 5px;
+        margin-bottom: 5rem;
+        font-size: 1.8rem;
+        font-family: 'Otomanopee One',sans-serif;
+        color:black;
     }
+    .cv{border: 2px solid rebeccapurple  ;
+        border-radius: 5px;
+        padding: 2rem;
+        margin-top: 40rem;
+        position: absolute;
+    background: $gradient;
+color: white;
+font-size: 2.2rem;}
 
 }
 
 
-#my_images{width: 15rem;
-    border-radius: 1rem;}
+.about_title{text-align: center;
+margin-top: 2rem;}
+.about-h1{font-size: 3rem;}
+.about-p{color: crimson;}
