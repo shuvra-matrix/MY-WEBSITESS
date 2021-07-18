@@ -450,38 +450,6 @@ svg {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  padding-bottom: 1rem;
-}
-
-.projects h2 {
-  margin: 2rem;
-}
-
-.firstdiv {
-  width: 90%;
-  margin: auto;
-}
-
-.travelly, .elina {
-  margin-top: 3rem;
-  -webkit-box-flex: 1;
-      -ms-flex: 1 1 30rem;
-          flex: 1 1 30rem;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -492,12 +460,32 @@ svg {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  padding: 1.5rem 1.5rem;
-  -webkit-box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.2), 0px 20px 40px rgba(0, 0, 0, 0.2);
-          box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.2), 0px 20px 40px rgba(0, 0, 0, 0.2);
-  border-radius: 1rem;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  padding-bottom: 1rem;
+}
+
+.projects h2 {
+  margin: 2rem;
+}
+
+.travelly {
+  margin: 3rem;
+  border-radius: 2rem;
+  -webkit-transition: -webkit-transform .2s;
+  transition: -webkit-transform .2s;
+  transition: transform .2s;
+  transition: transform .2s, -webkit-transform .2s;
+}
+
+.firstdiv {
+  width: 90%;
+  margin: auto;
+}
+
+.travelly:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
 }
 
 .rtcamp {
@@ -506,8 +494,9 @@ svg {
 }
 
 .flask_url {
-  width: 50rem;
-  border-radius: 2rem;
+  width: 45rem;
+  height: 23rem;
+  border-radius: 1rem;
 }
 
 h5 {
